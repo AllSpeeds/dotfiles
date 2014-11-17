@@ -13,10 +13,6 @@ linters:
 	NameFormat:
 		enabled: false
 
-	SelectorFormat:
-		enabled: true  
-		convention: camel_case # or 'BEM', or 'snake_case', or 'hyphenated_lowercase', or a regex pattern
-
 	StringQuotes:
 		enabled: true 
 		style: double_quotes # or single_quotes
