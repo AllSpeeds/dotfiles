@@ -1,25 +1,25 @@
 ## Adapted from: https://github.com/causes/scss-lint/blob/master/config/default.yml
 ## Docs: https://github.com/causes/scss-lint/blob/master/lib/scss_lint/linter/README.md
 linters:
-  EmptyLineBetweenBlocks:
-  	enabled: true
-    ignore_single_line_blocks: false
+	EmptyLineBetweenBlocks:
+		enabled: true
+		ignore_single_line_blocks: false
 
-  Indentation:
-  	enabled: true
-    character: tab # or 'space'
-    width: 1
+	Indentation:
+		enabled: true
+		character: tab # or 'space'
+		width: 1
 
-  NameFormat:
-    enabled: false
+	NameFormat:
+		enabled: false
 
-  SelectorFormat:
-  	enabled: true  
-    convention: camel_case # or 'BEM', or 'snake_case', or 'hyphenated_lowercase', or a regex pattern
+	SelectorFormat:
+		enabled: true  
+		convention: camel_case # or 'BEM', or 'snake_case', or 'hyphenated_lowercase', or a regex pattern
 
-  StringQuotes:
-  	enabled: true 
-    style: double_quotes # or single_quotes
+	StringQuotes:
+		enabled: true 
+		style: double_quotes # or single_quotes
 
-  Compass::*:
-    enabled: true
+	Compass::*:
+		enabled: true
