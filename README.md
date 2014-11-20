@@ -11,13 +11,13 @@ Work in progress.
 
 #### Shell Environment
 * `.aliases`
-** SpotifyControl
+	* SpotifyControl
 * `.bash_profile`
-** source other shell environment dotfiles
+	* source other shell environment dotfiles
 * `.exports`
-** `history` command initialization
+	* `history` command initialization
 * `.functions`
-** set_term_title()
+	* set_term_title()
 
 #### Homebrew dotfile
 
