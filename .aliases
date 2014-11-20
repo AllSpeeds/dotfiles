@@ -1,0 +1,1 @@
+alias spotify="osascript ~/src/SpotifyControl/SpotifyControl.scpt"

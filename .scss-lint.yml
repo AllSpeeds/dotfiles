@@ -1,5 +1,5 @@
-## Adapted from: https://github.com/causes/scss-lint/blob/master/config/default.yml
-## Docs: https://github.com/causes/scss-lint/blob/master/lib/scss_lint/linter/README.md
+# Adapted from: https://github.com/causes/scss-lint/blob/master/config/default.yml
+# Docs: https://github.com/causes/scss-lint/blob/master/lib/scss_lint/linter/README.md
 linters:
 	EmptyLineBetweenBlocks:
 		enabled: true
