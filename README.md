@@ -30,3 +30,6 @@ sh ~/.brew
 #### SCSS Lint Configuration Overrides
 
 `.scss-lint.yml`
+
+## Installation
+`install-deps.sh`
