@@ -28,7 +28,7 @@ alias gh="open -a google\ chrome 'http://github.com/allspeeds'"
 alias lfm="open -a google\ chrome 'http://last.fm/user/chadwg'"
 alias apinpm="open -a google\ chrome 'https://www.npmjs.org'"
 alias apijq="open -a google\ chrome 'http://api.jquery.com/'"
-alias apicompass="open -a google\ chrome 'http://compass-style.org/reference/compass/"
+alias apicompass="open -a google\ chrome 'http://compass-style.org/reference/compass/'"
 
 # Thanks to stefanpenner for this one.
 # https://www.youtube.com/watch?v=SMWi7CLoZ2Q
