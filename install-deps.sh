@@ -19,6 +19,9 @@ gem install sass compass compass-css-arrow compass-import-once scss-lint
 gem install --pre sass-css-importer
 gem list
 
+# `cat` with beautiful colors.
+sudo easy_install Pygments
+
 # TODO:
 # git-completion.sh
 # heroku
