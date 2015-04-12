@@ -33,3 +33,9 @@ sh ~/.brew
 
 ## Installation
 `install-deps.sh`
+
+Get rid of that 'last login' message at the top of each session:
+
+`touch ~/.hushlogin`
+
+Resources: http://jilles.me/badassify-your-terminal-and-shell/
