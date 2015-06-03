@@ -10,6 +10,11 @@ git clone git://github.com/dronir/SpotifyControl.git
 # use 'subl'
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
+# nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
+nvm install stable
+nvm alias default stable
+
 # commonly used npm deps
 npm install -g bower grunt-cli grunt-devtools phantomjs jshint jscs node-inspector pageres
 npm list -g --depth=0
@@ -26,4 +31,3 @@ sudo easy_install Pygments
 # git-completion.sh
 # heroku
 # rvm
-# nvm
