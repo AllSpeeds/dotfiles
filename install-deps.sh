@@ -18,6 +18,7 @@ nvm alias default stable
 # commonly used npm deps
 npm install -g bower grunt-cli grunt-devtools phantomjs jshint jscs node-inspector pageres
 npm list -g --depth=0
+npm completion >> ~/.bashrc
 
 # common gems
 gem install sass compass compass-css-arrow compass-import-once scss-lint
