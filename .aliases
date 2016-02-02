@@ -22,6 +22,7 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias ws="cd ~/workspace"
 alias g="git"
+alias gs="git status"
 alias h="history"
 
 # On the web
