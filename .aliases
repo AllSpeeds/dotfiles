@@ -7,12 +7,13 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Applications
-alias spotify="osascript ~/src/SpotifyControl/SpotifyControl.scpt"
+alias spotify="osascript ~/src/SpotifyControl/SpotifyControl"
+alias shpotify="~/src/shpotify/spotify"
 alias safari="open -a safari"
 alias firefox="open -a firefox"
 alias opera="open -a opera"
 alias chrome="open -a google\ chrome"
-alias f='open -a Finder'
+alias f="open -a Finder"
 alias photoshop="open -a '/Applications/Adobe Photoshop CC 2014/Adobe Photoshop CC 2014.app/'"
 alias illustrator="open -a '/Applications/Adobe Illustrator CC 2014/Adobe Illustrator.app/'"
 
@@ -64,3 +65,6 @@ alias c='pygmentize -O style=monokai -f console256 -g'
 
 # File size
 alias fs="stat -f \"%z bytes\""
+
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
