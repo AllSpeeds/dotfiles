@@ -8,9 +8,9 @@ Heavily based on [addyosmani](https://github.com/addyosmani/dotfiles)'s dotfiles
 Work in progress.
 
 __2020 new macbook notes__
-git needed command line developer tools
-mkdir ~/workspace
-git ssh
+- git needed command line developer tools
+- mkdir ~/workspace
+- git ssh
 
 ## Files Overview
 
