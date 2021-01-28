@@ -11,9 +11,9 @@ git clone git://github.com/dronir/SpotifyControl.git
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
 # nvm
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
-nvm install stable
-nvm alias default stable
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+nvm install node
+nvm alias default node
 
 # commonly used npm deps
 npm install -g bower grunt-cli grunt-devtools phantomjs jshint jscs node-inspector pageres
