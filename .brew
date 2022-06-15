@@ -6,13 +6,8 @@ brew update
 # Upgrade any already-installed formulae
 brew upgrade
 
-# Install Bash 4
-brew install bash
-
-# Install useful items
-brew install git
-brew install tree
-brew install phantomjs
+# Install everything in Brewfile
+brew bundle
 
 # Remove outdated versions from the cellar
 brew cleanup
