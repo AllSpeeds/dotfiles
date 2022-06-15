@@ -7,30 +7,24 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Applications
-alias spotify="osascript ~/src/SpotifyControl/SpotifyControl"
-alias shpotify="~/src/shpotify/spotify"
-alias safari="open -a safari"
-alias firefox="open -a firefox"
-alias opera="open -a opera"
 alias chrome="open -a google\ chrome"
 alias f="open -a Finder"
-alias photoshop="open -a '/Applications/Adobe Photoshop CC 2014/Adobe Photoshop CC 2014.app/'"
-alias illustrator="open -a '/Applications/Adobe Illustrator CC 2014/Adobe Illustrator.app/'"
 
 # Shortcuts
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias ws="cd ~/workspace"
+
+# git
 alias g="git"
 alias gs="git status"
+
 alias h="history"
 
 # On the web
 alias gh="open -a google\ chrome 'http://github.com/allspeeds'"
 alias lfm="open -a google\ chrome 'http://last.fm/user/chadwg'"
-alias apinpm="open -a google\ chrome 'https://www.npmjs.org'"
-alias apijq="open -a google\ chrome 'http://api.jquery.com/'"
-alias apicompass="open -a google\ chrome 'http://compass-style.org/reference/compass/'"
+alias apinpm="open -a google\ chrome 'https://docs.npmjs.com/'"
 
 # Thanks to stefanpenner for this one.
 # https://www.youtube.com/watch?v=SMWi7CLoZ2Q
