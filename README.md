@@ -5,9 +5,13 @@ My personal OS X dotfiles
 
 Heavily based on [addyosmani](https://github.com/addyosmani/dotfiles)'s dotfiles.
 
-*Notes:*
-- git needed command line developer tools
+## Setup new machine
+
+- Download and install macOS [command-line tools](https://developer.apple.com/download/more/?=command%20line%20tools).
+- [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 - mkdir ~/workspace
+- clone this repo
+- `install-deps.sh`
 
 ## Files Overview
 
@@ -20,9 +24,6 @@ Heavily based on [addyosmani](https://github.com/addyosmani/dotfiles)'s dotfiles
 	* `history` command initialization
 * `.functions`
 	* set_term_title()
-
-## Installation
-`install-deps.sh`
 
 ### Get rid of that 'last login' message at the top of each session:
 
