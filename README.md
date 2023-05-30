@@ -8,6 +8,7 @@ Heavily based on [addyosmani](https://github.com/addyosmani/dotfiles)'s dotfiles
 ## Setup new machine
 
 - Download and install macOS [command-line tools](https://developer.apple.com/download/more/?=command%20line%20tools).
+  - `xcode-select --install`
 - [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 - mkdir ~/workspace
 - clone this repo
