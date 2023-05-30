@@ -12,8 +12,7 @@ Heavily based on [addyosmani](https://github.com/addyosmani/dotfiles)'s dotfiles
 - [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 - `mkdir ~/workspace`
 - clone this repo
-- `chmod +x ./install-deps.sh`
-- `install-deps.sh`
+- `sh ./install-deps.sh`
 
 ## Files Overview
 

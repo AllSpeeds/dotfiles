@@ -3,5 +3,3 @@ for file in ~/.{exports,aliases,bash_prompt,functions}; do
 	[ -r "$file" ] && source "$file"
 done
 unset file
-
-eval "$(grunt --completion=bash)"
