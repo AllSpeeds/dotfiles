@@ -10,8 +10,9 @@ Heavily based on [addyosmani](https://github.com/addyosmani/dotfiles)'s dotfiles
 - Download and install macOS [command-line tools](https://developer.apple.com/download/more/?=command%20line%20tools).
   - `xcode-select --install`
 - [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
-- mkdir ~/workspace
+- `mkdir ~/workspace`
 - clone this repo
+- `chmod +x ./install-deps.sh`
 - `install-deps.sh`
 
 ## Files Overview
