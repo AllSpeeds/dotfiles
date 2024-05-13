@@ -22,7 +22,6 @@ alias gs="git status"
 alias h="history"
 
 # On the web
-alias gh="open -a google\ chrome 'http://github.com/allspeeds'"
 alias lfm="open -a google\ chrome 'http://last.fm/user/chadwg'"
 alias npmd="open -a google\ chrome 'https://docs.npmjs.com/'"
 
