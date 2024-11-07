@@ -18,12 +18,19 @@ alias ws="cd ~/workspace"
 # git
 alias g="git"
 alias gs="git status"
+alias gp="git pull"
+alias gcom="git checkout main"
+alias gcos="git checkout staging"
 
 alias h="history"
 
 # On the web
 alias lfm="open -a google\ chrome 'http://last.fm/user/chadwg'"
 alias npmd="open -a google\ chrome 'https://docs.npmjs.com/'"
+
+npmjs() {
+	open -a google\ chrome 'https://www.npmjs.com/search?q='$1
+}
 
 # Thanks to stefanpenner for this one.
 # https://www.youtube.com/watch?v=SMWi7CLoZ2Q
@@ -54,6 +61,7 @@ else
 fi
 
 # `cat` with beautiful colors. requires Pygments installed.
+# sudo easy_install Pygments
 alias c='pygmentize -O style=monokai -f console256 -g'
 
 # File size
