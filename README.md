@@ -8,11 +8,31 @@ Heavily based on [addyosmani](https://github.com/addyosmani/dotfiles)'s dotfiles
 ## Setup new machine
 
 - Download and install macOS [command-line tools](https://developer.apple.com/download/more/?=command%20line%20tools).
-  - `xcode-select --install`
-- [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
-- `mkdir ~/workspace`
-- clone this repo
-- `sh ./install-deps.sh`
+
+```bash
+xcode-select --install
+```
+
+- [Connect GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+
+- Create directory for projects
+
+```bash
+mkdir ~/workspace && cd workspace
+```
+
+- Clone this repo
+- Install dependencies
+
+```bash
+sh ./install-deps.sh
+```
+
+- Setup aliases, etc.
+
+```bash
+sh ./setup.sh
+```
 
 ## Files Overview
 
@@ -20,6 +40,7 @@ Heavily based on [addyosmani](https://github.com/addyosmani/dotfiles)'s dotfiles
 
 * `.aliases`
 * `.bash_profile`
+* `.zshrc`
 	* source other shell environment dotfiles
 * `.exports`
 	* `history` command initialization
